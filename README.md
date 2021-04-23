@@ -23,8 +23,11 @@ because she is tired of doing all these complex astrological calculations by han
 6. Shows which Zodiac sign has the best year (by score)
 
 ## How to Install Project
-1. create Database named `HaaS`
-2. run `php setup.php`
+1. run `composer install`
+2. run `cp .env .env.example`
+3. create Database
+4. run `php artisan migrate`
+5. run `php artisan serve`
 
 ## License
 
